@@ -36,4 +36,4 @@ for joint in selected_joints:
 
     # Connect attributes
     cmds.connectAttr('%s.FollowTranslate' % (child_cntrl), '%s.%sW0' % (p_constarnt1, parent_cntrl), f=True)
-    cmds.connectAttr('%s.FollowRotate' % (child_cntrl), '%s.%sW0' % (p_constarnt2, paren
+    cmds.connectAttr('%s.FollowRotate' % (child_cntrl), '%s.%sW0' % (p_constarnt2, parent_cntrl), f=True)
